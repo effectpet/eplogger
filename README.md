@@ -3,7 +3,7 @@ EPLogger is a simple, async logger class without external dependencies.
 
 ## Howto use
 ```javascript
-	const EPLogger = require('./EPLogger');
+	const EPLogger = require('eplogger');
 	const logger = new EPLogger({
 		logFolder: './log',
 		logFile: 'application.log',
