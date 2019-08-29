@@ -1,8 +1,12 @@
 {
   "name": "eplogger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple logger class without external dependencies",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/effectpet/eplogger.git"
+  },
   "directories": {
     "lib": "lib"
   },
