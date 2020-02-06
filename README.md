@@ -5,8 +5,8 @@ EPLogger is a simple, async logger class without external dependencies.
 ```javascript
 	const EPLogger = require('eplogger');
 	const logger = new EPLogger({
-		logFolder: './log',
-		logFile: 'application.log',
+		folder: './log',
+		file: 'application.log',
 		singleFile: true,
 		filePerDay: false
 	});
@@ -19,8 +19,8 @@ EPLogger is a simple, async logger class without external dependencies.
 ```
 
 Following options exist:
--   `options.logFolder` Path to the log folder
--   `options.logFile` Name of the log file (if singleFile is enabled)
+-   `options.folder` Path to the log folder
+-   `options.file` Name of the log file (if singleFile is enabled)
 -   `options.singleFile` Enable single file logging
 -   `options.filePerDay` Enable one file per day (adds yearmonthday to filename)
 
